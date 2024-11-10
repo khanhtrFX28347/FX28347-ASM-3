@@ -1,0 +1,451 @@
+@media screen and (min-width: 1025px ) {
+  .Start {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .margin-top {
+    margin-top: 5%;
+  }
+  #BLUE {
+    color: blue;
+  }
+  #Big-fonts {
+    font-size: xx-large;
+  }
+  #Small-fonts {
+    font-size: smaller;
+  }
+  #Inline-block {
+    display: inline-block;
+  }
+  #Gray-line {
+    border-radius: 50px;
+    width: 20%;
+    background-color: gray;
+    padding: 5px;
+    margin: 1%;
+  }
+  #Blue-line {
+    margin: 1%;
+    border-radius: 50px;
+    width: 20%;
+    background-color: blue;
+    padding: 5px;
+  }
+  #Black {
+    color: black;
+  }
+  .Home-pic {
+    position: relative;
+  }
+  .Home {
+    text-decoration: none;
+    display: flex;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+  }
+  .Home-branch {
+    color: aliceblue;
+    text-decoration: none;
+    background-color: rgb(1, 96, 96);
+    font-size: small;
+  }
+  .IMAGE1 {
+    width: 100%;
+  }
+  .Float-word {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .Menu {
+    position: relative;
+    width: auto;
+    height: fit-content;
+    margin: 0% 5% 1% 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    border: 1px solid black;
+  }
+
+  .Menu-branch-1 {
+    text-decoration: none;
+    border: 1px solid black;
+    display: flex;
+    grid-column: 1;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .Menu-branch-2 {
+    text-decoration: none;
+    border: 1px solid black;
+    display: flex;
+    grid-column: 2;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .Menu-branch-3 {
+    display: flex;
+    grid-column: 3;
+    height: 50px;
+  }
+  .Menu-branch-3-leaf-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 15%;
+    border: 15px solid gray;
+  }
+  .Menu-branch-3-leaf-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 20%;
+    background-color: gray;
+  }
+  .Menu-branch-4 {
+    text-decoration: none;
+    border: 1px solid black;
+    display: flex;
+    grid-column: 4;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .Menu-branch-5 {
+    text-decoration: none;
+    border: 1px solid black;
+    display: flex;
+    grid-column: 5;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .common-information {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: fit-content;
+  }
+  .career-goals {
+    grid-column: 1;
+    background-color: aliceblue;
+  }
+  .career-goals-branch-1 {
+    margin: 5% 0% 2% 5%;
+  }
+  .career-goals-branch-2 {
+    margin: 0% 0% 0% 5%;
+  }
+  .personal-information {
+    background-color: rgb(226, 240, 240);
+    grid-column: 2;
+  }
+  .personal-information-branch-1 {
+    margin: 5% 0% 2% 5%;
+  }
+  .personal-information-branch-2 {
+    margin: 0% 0% 0% 5%;
+  }
+  .personal-information-branch-3 {
+    margin: 5%;
+  }
+  .detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+    margin: 2% 0% 2% 0%;
+    gap: 2%;
+  }
+  .experience {
+    grid-column: 1;
+    grid-row: 1;
+    border: 1px solid black;
+  }
+  .detail-branch-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 3% 5% 3%;
+  }
+  .detail-branch-2 {
+    margin: 0% 3% 5% 3%;
+  }
+  .detail-branch-2-leaf-1 {
+    display: inline-flex;
+    color: black;
+  }
+  .detail-branch-2-leaf-2 {
+    display: flex;
+    margin-left: 5%;
+  }
+  .detail-branch-2-leaf-veins-1 {
+    color: gray;
+  }
+  .detail-branch-2-leaf-veins-2 {
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 50px;
+    text-align: center;
+    width: auto;
+    padding: 0px 5px;
+  }
+  .detail-branch-2-leaf-3 {
+    margin-left: 5%;
+    color: black;
+  }
+  .detail-branch-2-leaf-4 {
+    display: inline-flexbox;
+    color: black;
+  }
+  .detail-branch-2-leaf-5 {
+    color: gray;
+    margin-left: 5%;
+  }
+  .detail-branch-2-leaf-6 {
+    color: black;
+    margin-left: 5%;
+  }
+  .education {
+    grid-column: 2;
+    grid-row: 1;
+    border: 1px solid black;
+  }
+  .work {
+    grid-column: 3;
+    grid-row: 1;
+    border: 1px solid black;
+  }
+  .hobby {
+    grid-column: 1;
+    grid-row: 2;
+    border: 1px solid black;
+  }
+  .hobby-branch-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 2% 0% 0% 5%;
+  }
+  .hobby-branch-2-leaf-1 {
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hobby-branch-2-leaf-2 {
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+  }
+  .icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .language {
+    grid-column: 2;
+    grid-row: 2;
+    border: 1px solid black;
+  }
+  .language-skill-branch {
+    display: flex;
+    flex-direction: column;
+    margin: 0% 0% 2% 3%;
+  }
+  .language-skill-branch-leaf {
+    display: flex;
+  }
+
+  .skill {
+    grid-column: 3;
+    grid-row: 2;
+    border: 1px solid black;
+  }
+  .reward {
+    background-color: rgb(208, 208, 208);
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 2% 1fr 1fr 2%;
+  }
+  .reward-branch-1 {
+    display: flex;
+    margin: 2% 0% 2% 0%;
+    grid-column: 2;
+    grid-row: 1;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .reward-branch-2 {
+    border-right: 1px solid black;
+    margin: 2% 0% 2% 0%;
+    grid-column: 2;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr 2% 1fr;
+    justify-items: start;
+  }
+  .reward-branch-3 {
+    margin: 2% 0% 2% 2%;
+    grid-column: 3;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr 2% 1fr;
+    justify-items: start;
+  }
+  .reward-branch-4 {
+    border-top: 1px solid black;
+    margin: 2% 0% 2% 0%;
+    grid-column: 2;
+    grid-row: 4;
+    display: grid;
+    grid-template-columns: 1fr 2% 1fr;
+    justify-items: start;
+  }
+  .reward-branch-5 {
+    border-top: 1px solid black;
+    margin: 2% 0% 2% 0%;
+    grid-column: 3;
+    grid-row: 4;
+    display: grid;
+    grid-template-columns: 1fr 2% 1fr;
+    justify-items: start;
+  }
+  .reward-branch-leaf-1 {
+    margin-top: 5%;
+    grid-column: 1;
+  }
+  .reward-branch-leaf-2 {
+    grid-column: 3;
+    margin-top: 5%;
+  }
+  .project {
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5% 1fr;
+    gap: 5%;
+  }
+  .project-branch-1 {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .project-branch-2 {
+    grid-column: 1;
+    grid-row: 2;
+    border: 1px solid rgb(137, 137, 137);
+    display: flex;
+    flex-direction: column;
+  }
+  .project-branch--leaf-1 {
+    width: 100%;
+    border-bottom: 1px solid rgb(137, 137, 137);
+  }
+  .project-branch--leaf-2 {
+    border-bottom: 1px solid rgb(137, 137, 137);
+    border-top: 1px solid rgb(137, 137, 137);
+  }
+  .project-branch--leaf-2-vein-1 {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .project-branch--leaf-3 {
+    border-bottom: 1px solid rgb(137, 137, 137);
+    border-top: 1px solid rgb(137, 137, 137);
+  }
+  .project-branch--leaf-3-infor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-direction: row;
+    align-items: center;
+    margin: 5%;
+  }
+  .project-branch--leaf-3-vein-1 {
+    grid-column: 1;
+    width: min-content;
+    border-radius: 50px;
+    padding: 5px 15px;
+    color: white;
+    background-color: blue;
+  }
+  .project-branch--leaf-3-vein-3 {
+    display: flex;
+    grid-column: 2;
+  }
+  .project-branch--leaf-3-vein-5 {
+    display: flex;
+    grid-column: 3;
+  }
+  .project-branch--leaf-4 {
+    border-top: 1px solid rgb(137, 137, 137);
+  }
+  .project-branch--leaf-4-infor {
+    margin: 5%;
+    display: grid;
+    grid-template-columns: 25% 75%;
+  }
+  .project-branch--leaf-4-vein-1 {
+    height: 100%;
+    grid-column: 1;
+  }
+  .project-branch--leaf-4-vein-2 {
+    grid-column: 2;
+  }
+  .project-branch-3 {
+    grid-column: 2;
+    grid-row: 2;
+    border: 1px solid rgb(137, 137, 137);
+    display: flex;
+    flex-direction: column;
+  }
+  .project-branch-4 {
+    grid-column: 3;
+    grid-row: 2;
+    border: 1px solid rgb(137, 137, 137);
+    display: flex;
+    flex-direction: column;
+  }
+  .communicate {
+    background-color: rgb(224, 224, 224);
+    width: 100%;
+    margin-top: 5%;
+  }
+  .communicate-infor {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .communicate-information {
+    display: flex;
+    align-items: center;
+  }
+  .communicate-branch {
+    display: flex;
+    margin: 3% 3% 3% 0%;
+  }
+}

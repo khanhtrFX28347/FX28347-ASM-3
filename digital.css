@@ -1,0 +1,170 @@
+/* screen for laptop */
+@media screen and (min-width: 1200px) {
+  .Home-pic {
+    position: relative;
+  }
+  .Home {
+    text-decoration: none;
+    display: flex;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+  }
+  .Home-branch {
+    color: aliceblue;
+    text-decoration: none;
+    background-color: rgb(1, 96, 96);
+    font-size: small;
+  }
+  * {
+    font-size: large;
+  }
+  #icon {
+    text-align: center;
+    align-self: center;
+  }
+  .icon {
+    font-size: 300%;
+  }
+  .digital-cv {
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+  }
+  #board-A {
+    gap: 10px;
+    grid-column: 1;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  #board-B {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .goals {
+    grid-column: 1;
+    grid-row: 1;
+    padding: 10px;
+  }
+  .scopes {
+    grid-column: 1;
+    grid-row: 2;
+    padding: 10px;
+  }
+  .team {
+    grid-column: 2;
+    grid-row: 1;
+    padding: 10px;
+  }
+  .primary {
+    grid-column: 2;
+    grid-row: 2;
+    padding: 10px;
+  }
+  .timeline {
+    grid-column: 3;
+    padding: 10px;
+  }
+  .title {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: blue;
+    font-family: Arial;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+  }
+  .detail {
+    padding: 5px;
+  }
+  .goals-detail-goal {
+    padding: 2px;
+    border-bottom: 1px solid black;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .Home-pic {
+    position: relative;
+  }
+  .Home {
+    text-decoration: none;
+    display: flex;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+  }
+  .Home-branch {
+    color: aliceblue;
+    text-decoration: none;
+    background-color: rgb(1, 96, 96);
+    font-size: small;
+  }
+  * {
+    font-size: large;
+  }
+  #icon {
+    text-align: start;
+    align-self: center;
+  }
+  .icon {
+    font-size: 300%;
+  }
+  .digital-cv {
+    padding: 2%;
+    display: grid;
+    gap: 10px;
+  }
+  #board-A {
+    gap: 10px;
+    grid-column: 1;
+    grid-row: 1;
+    display: grid;
+  }
+  #board-B {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .goals {
+    grid-column: 1;
+    grid-row: 1;
+    padding: 10px;
+  }
+  .scopes {
+    grid-column: 1;
+    grid-row: 2;
+    padding: 10px;
+  }
+  .team {
+    grid-column: 1;
+    grid-row: 3;
+    padding: 10px;
+  }
+  .primary {
+    grid-column: 1;
+    grid-row: 4;
+    padding: 10px;
+  }
+  .timeline {
+    grid-column: 1;
+    grid-row: 5;
+    padding: 10px;
+  }
+  .title {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: blue;
+    font-family: Arial;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+  }
+  .detail {
+    padding: 5px;
+  }
+  .goals-detail-goal {
+    padding: 2px;
+    border-bottom: 1px solid black;
+  }
+}
